@@ -1,1 +1,124 @@
-/* место для вашего кода */
+  .header{
+    margin-top: 92px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 1052px;
+    height: 105px;
+    top: 92px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .header__menu
+  .header__links-list{
+    display: flex;
+    gap: 32px;
+  }
+  .header__links-list-item_no-bullit{
+    list-style: none;
+  }
+  .header__link_active{
+     list-style: circle;
+    }
+  .header__logo{
+    width: 148px;
+    height: 105px;
+  }
+  .header__address{
+    justify-self: right;
+    margin-left: 185px;
+    margin-right: 28px;
+    font-style: normal;
+  }
+
+  .cover{
+    margin-top: 96px;
+    width: 1100px;
+    height: 757px;
+    position: relative;
+    background: url("/images/cover.jpg") no-repeat center / cover;
+    z-index: 0;
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  .cover__title{
+    padding: 165px 50px 140px 50px;
+    display: block;
+    margin: auto;
+    position: relative;
+    font-style: "Raleway";
+    line-height: 115px;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    z-index: 2;
+  }
+  .aligned-text{
+    display: block;
+    letter-spacing: 0.3em;
+    
+  }
+  .letter-spacing-extended{
+    letter-spacing: 60px;
+  }
+  .aligned-text_center{
+    display: block;
+    text-align: center;
+    line-height: 138px;
+    letter-spacing: 0.3em;
+  }
+  .aligned-text_right{
+    display: block;
+    text-align: end;
+    letter-spacing: 0.3em;
+    justify-self: end;
+  }
+
+  .no-letter-spacing{
+    letter-spacing: 0;
+  }
+  .cover__description{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    left: 79px;
+    bottom: 6px;
+  }
+  .cover__description-text{
+    font-family: "Raleway";
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 18px;
+}
+.bet-button{
+  background-color: transparent;
+  padding: 12px 32px 11px 31px;
+  border: 2px solid white;
+  font-family: "Raleway";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: auto;
+  color: white;
+  position: relative;
+  left: 715px;
+  bottom: 41px;
+}
+.lots{
+    padding-top: 179px;
+    
+}
