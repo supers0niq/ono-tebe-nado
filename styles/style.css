@@ -17,10 +17,9 @@
 .header__menu .header__links-list {
   display: flex;
   gap: 32px;
-  letter-spacing: 1%;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  align-self: flex-end;
+  
 }
 
 .header__links-list-item_no-bullit {
@@ -49,7 +48,7 @@
   width: 100%;
   height: 757px;
   position: relative;
-  background: url("/images/cover.jpg") no-repeat center / cover;
+  background: url("../images/cover.jpg") no-repeat center / cover;
   z-index: 0;
 }
 
@@ -213,21 +212,21 @@
 }
 
 .card_type_film {
-  background-image: url("/images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .card_type_book {
-  background: url("/images/card-lot-02.jpg");
+  background: url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .card_type_picture {
-  background: url("/images/card-lot-03.jpg");
+  background: url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
