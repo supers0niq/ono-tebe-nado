@@ -7,8 +7,6 @@
   justify-items: center;
   align-items: center;
   width: 1052px;
-  margin-top: 92px;
-  margin-left: 24px;
   gap: 0px;
   opacity: 0px;
 }
@@ -97,7 +95,7 @@
 
 .aligned-text_right {
   display: block;
-  margin-right: -35px;
+
   margin-top: 20px;
   line-height: 100%;
   text-align: end;
@@ -180,6 +178,7 @@
 
 .card-title {
   color: white;
+  text-decoration: underline;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -189,7 +188,6 @@
   margin-top: 51px;
   margin-left: 41px;
   margin-right: 40px;
-  text-decoration: underline;
 }
 
 .card-link {
