@@ -135,7 +135,6 @@
   font-size: 22px;
   line-height: auto;
   color: white;
-  position: relative;
   left: 715px;
   bottom: 41px;
 }
@@ -186,7 +185,6 @@
   z-index: 15;
   margin-left: 40px;
   margin-top: 51px;
-  margin-left: 41px;
   margin-right: 40px;
 }
 
