@@ -229,7 +229,7 @@
 }
 
 .about__column {
-  padding: 10px;
+  padding: 0px;
 }
 
 .about__column-image {
@@ -273,14 +273,16 @@
 }
 
 .about__text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
   font-size: 20px;
 }
-.about__text-padding {
-  padding-top: 24px;
-}
+
 
 .footer {
-  padding: 165px 50px 88px;
+  padding: 185px 50px 88px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
